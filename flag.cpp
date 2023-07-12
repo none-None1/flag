@@ -91,7 +91,7 @@ int main(int argc,char *argv[]){
 		}else if(i==2){
 			while(cell[p]) run(line+i);
 		}else{
-			for(int I=1;I<i;i++) run(line+i);
+			for(int I=1;I<i;I++) run(line+i);
 		}
 		if(argc<2) printf("> ");
 	}
